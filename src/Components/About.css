@@ -1,0 +1,138 @@
+.about {
+    height: 200vh
+}
+
+
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%
+}
+
+.Headers {
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.about_me {
+    width: 90%;
+    height: 45%;
+    margin-top: 6rem;
+    border-radius: 2rem;
+    margin-left: 3rem;
+    place-items: center;
+    background: #c8f5ffa0;
+    display: grid;
+    place-items: center;
+}
+
+.about_me-image {
+    
+
+    border-radius: 2rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 0.4s ease;
+    
+}
+
+.about_me-image:hover {
+    transform: rotate(0deg)
+}
+
+.about_cards {
+    display: grid;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.about_card {
+    background: transparent;
+    border-radius: 2rem;
+    border: 1px solid white;
+    padding: 1.3rem;
+}
+
+.about_card h5 {
+    font-size: 1rem;
+    color: white;
+    text-align:center
+}
+
+.about_card small {
+    color: white;
+    margin-top: 4rem;
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+.about_card:hover {
+    background: rgb(32, 37, 92);
+    transition: all ease-in-out 400ms;
+    cursor: default;
+}
+
+.thing {
+    text-align: center;
+}
+
+.icon {
+    text-align: bottom;
+}
+
+.about_icon {
+    color: black;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.about_content p {
+    margin: 4rem 2rem 2.6rem;
+    color: white;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-left: 2rem;
+    }
+
+    .about_me {
+        width: 50%;
+        margin: 7rem auto 4rem;
+        height: 50%
+    }
+
+    .about_content p {
+        margin: 3rem 3rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about_me {
+        width: 65%;
+        margin: 4rem auto 3rem;
+height: 60%;
+    }
+
+    .about_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+
+    .about_content p {
+        margin: 1.5rem 0;
+    }
+}

@@ -1,0 +1,318 @@
+.Cas {
+    height: 200rem;
+}
+
+
+.cas_container {
+    display: grid;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 4.5rem;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem
+}
+
+.header {
+    color: white;
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.cas_container > div {
+    background: transparent;
+    text-align: left;
+    border-radius: 2rem 2rem 2rem 2rem;
+    border: 1px solid white;
+    height: 30rem;
+    
+}
+
+.cas_container > div:hover {
+    background: #0b2743;
+    transition: all ease-in-out 400ms;
+    border-color: white;
+    cursor: default;
+}
+
+.cas_container > div h3{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 0rem;
+    color: white;
+}
+.cas_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0rem;
+}
+
+
+.cas_details {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    padding: 1.5rem;
+}
+
+.cas_details-icon {
+    margin-top: 6px;
+}
+
+.cas {
+    color: white;
+   padding: 2rem;
+   margin: 0rem 10rem;
+   margin-left: 0rem;
+   margin-right: 3rem;
+}
+.CAS{
+    color: white;
+   padding: 2rem;
+   margin: 8rem 10rem;
+   margin-left: -80%;
+   margin-right: 95%;
+    
+}
+
+.about_me_CAS {
+    width: 100%;
+    Height: 48%;
+    margin-top: 8rem;
+    border-radius: 2rem;
+    margin-left: 45rem;
+    place-items: center;
+    background: #4ebcf867;
+    display: grid;
+    place-items: center;
+}
+
+.about_me_CAS-image {
+    
+   
+    width: 100%;
+    border-radius: 2rem;
+    margin-top: 0rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: all 0.4s ease;
+    
+}
+
+.about_me_CAS-image:hover {
+    transform: rotate(0deg)
+}
+.about_me_cas {
+    width: 90%;
+    height: 55%;
+    margin-top: 7rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin-left: 3rem;
+    place-items: center;
+    background: #4ebcf867;
+    display: grid;
+    place-items: center;
+}
+
+.about_me_cas-image {
+    
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin-top: 0rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 0.4s ease;
+    
+}
+
+.about_me_cas-image:hover {
+    transform: rotate(0deg)
+}
+
+.cas {
+    color: white;
+    margin: 9rem 3rem 2.6rem
+}
+
+.repario{
+    color: white;
+   padding: 2rem;
+   margin: 13rem 10rem;
+   margin-left: -80%;
+   margin-right: 95%;
+    
+}
+
+.about_me_repario {
+    width: 100%;
+    Height: 38%;
+    margin-top: 12rem;
+    border-radius: 2rem;
+    margin-left: 45rem;
+    place-items: center;
+    background: #4ebcf867;
+    display: grid;
+    place-items: center;
+}
+
+.about_me_repario-image {
+    
+   
+    width: 100%;
+    border-radius: 2rem;
+    margin-top: 0rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: all 0.4s ease;
+    
+}
+
+.about_me_repario-image:hover {
+    transform: rotate(0deg)
+}
+
+
+.about_me_dance-image:hover {
+    transform: rotate(0deg)
+}
+
+.dance {
+    color: white;
+    padding: 2rem;
+    margin-top: 7rem;
+    margin-left: 0rem;
+    margin-right: 3rem
+ 
+}
+
+.about_me_dance {
+    width: 100%;
+    height: 65%;
+    margin-top: 5rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin-left: 3rem;
+    place-items: center;
+    background: #4ebcf867;
+    display: grid;
+    place-items: center;
+}
+
+.about_me_dance-image {
+    
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin-top: 0rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 0.4s ease;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cas_container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .cas_container > div {
+        width: 80%;
+        height: auto;
+        padding: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        
+    }
+
+    .experience_content {
+        padding: 1rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cas_container {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .cas_container > div {
+        width: 70%;
+        padding: 2rem;
+        margin-top: 5rem;
+    }
+    .about_me_CAS {
+        width: 65%;
+        margin: 4rem auto 3rem;
+height: 60%;
+    }
+    .CAS {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_cas {
+        width: 65%;
+        margin: 4rem auto 3rem;
+height: 60%;
+    }
+    .cas {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_repario {
+        width: 65%;
+        margin: 4rem auto 3rem;
+height: 60%;
+    }
+    .repario {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_dance {
+        width: 65%;
+        margin: 4rem auto 3rem;
+height: 60%;
+    }
+    .dance {
+        margin: 2rem 2rem 3rem
+    }
+    }
+
+@media screen and (max-width: 1024px) {
+    
+
+    .about_me_CAS {
+        width: 50%;
+        margin: 7rem auto 4rem;
+        height: 50%
+    }
+    .CAS {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_cas {
+        width: 50%;
+        margin: 7rem auto 4rem;
+        height: 50%
+    }
+    .cas {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_repario {
+        width: 50%;
+        margin: 7rem auto 4rem;
+        height: 50%
+    }
+    .repario {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_dance {
+        width: 50%;
+        margin: 7rem auto 4rem;
+        height: 50%
+    }
+    .dance {
+        margin: 2rem 2rem 3rem
+    }
+}

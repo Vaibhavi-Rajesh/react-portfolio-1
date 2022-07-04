@@ -1,0 +1,194 @@
+.Astro {
+    height: 140rem;
+}
+
+
+.Headers {
+    color: white;
+    text-align: center;
+}
+
+.container.testimonials_container {
+    width: 40%;
+    margin-top: 3rem;
+}
+
+
+.testimonial {
+    background: #1f1f38;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+   
+}
+
+
+.about_icon {
+    color: white;
+    margin-left: 50%;
+}
+
+.client_name {
+    color: white;
+    text-align: center;
+}
+
+.client_review {
+    color: white;
+    text-align: left;
+    font-weight: 100;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0
+}
+
+.services_list {
+    padding: 2rem
+}
+
+.services_list li {
+    display: flex;
+    gap: 1rem;
+    margin-top: 11px
+}
+
+.serivce-list-icon {
+    font-size: 1.3rem;
+}
+
+.astro{
+    color: white;
+   padding: 2rem;
+   margin: 15rem 10rem;
+   margin-left: -80%;
+   margin-right: 95%;
+    
+}
+
+.about_me_astro {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-top: 11rem;
+    border-radius: 2rem;
+    margin-left: 45rem;
+    place-items: center;
+    background: #4ebcf867;
+    display: grid;
+    place-items: center;
+}
+
+.about_me_astro-image {
+    
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    margin-top: 7rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: all 0.4s ease;
+    
+}
+
+.about_me_astro-image:hover {
+    transform: rotate(0deg)
+}
+.about_me_ast {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    margin-left: 3rem;
+    place-items: center;
+    background: #4ebcf867;
+    display: grid;
+    place-items: center;
+}
+
+.about_me_ast-image {
+    
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    margin-top: 7rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 0.4s ease;
+    
+}
+
+.about_me_ast-image:hover {
+    transform: rotate(0deg)
+}
+
+.ast {
+    color: white;
+    margin: 4rem 3rem 2.6rem
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container.testimonials_container {
+        width: 60%;
+    }
+
+    .client_review {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .container.testimonials_container {
+        width: 80%;
+    }
+
+    .client_review {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+
+    .about_me_ast {
+        width: 50%;
+        margin: 7rem auto 4rem;
+        height: 50%
+    }
+    .ast {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_astro {
+        width: 50%;
+        margin: 7rem auto 4rem;
+        height: 50%
+    }
+    .astro {
+        margin: 2rem 2rem 1.5rem
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+
+    .about_me_ast {
+        width: 65%;
+        margin: 4rem auto 3rem;
+height: 60%;
+    }
+    .ast {
+        margin: 2rem 2rem 1.5rem
+    }
+
+    .about_me_astro {
+        width: 65%;
+        margin: 4rem auto 3rem;
+height: 60%;
+    }
+    .astro {
+        margin: 2rem 2rem 1.5rem
+    }
+}
+

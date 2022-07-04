@@ -1,0 +1,75 @@
+
+
+.Headers {
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.services_container {
+    display: grid;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 4.5rem;
+    margin-bottom: 8rem;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem
+}
+
+.service {
+    background: transparent;
+    text-align: left;
+    border-radius: 2rem 2rem 2rem 2rem;
+    border: 1px solid white;
+    height: fit-content;
+}
+
+.service:hover {
+    background: rgb(19, 45, 77);
+    transition: all ease-in-out 400ms;
+    cursor: default;
+}
+
+.service_head {
+    background: #224c5e;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 0 2rem 1 rem rgba(0, 0, 0 , 0.1);
+}
+
+.services_list {
+    padding: 2rem
+}
+
+.services_list li {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2px
+}
+
+@media screen and (max-width: 1024px) {
+    .services_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem
+    }
+
+    .service {
+        height: auto
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services_container {
+    grid-template-columns: 1fr;
+    gap: 2rem
+    }
+
+    .service {
+        height: auto
+    }
+}
+
+
+
